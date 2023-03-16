@@ -12,11 +12,18 @@ export class Satellite {
 		this.launchDate = launchDate;
 		this.orbitType = orbitType;
 		this.operational = operational;
-   }
+}
 	
 	isSpaceDebris(): boolean {
-		return true;
-   }
+		return this.type.toLowerCase() === "space debris";
+	}
+		// if (satellite.type = "Space Debris") {
+		// 	return true;
+		// } else {
+		// 	return false;
+		// }
+		
+
 
 }
 

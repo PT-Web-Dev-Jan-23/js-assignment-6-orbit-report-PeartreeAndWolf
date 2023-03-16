@@ -20,9 +20,9 @@ describe('OrbitCountsComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(OrbitCountsComponent);
     component = fixture.debugElement.componentInstance;
-	 element = fixture.debugElement;
+	element = fixture.debugElement;
 
-	 component.satellites = [];
+	component.satellites = [];
 
     fixture.detectChanges();
   });
